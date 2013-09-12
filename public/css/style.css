@@ -1,0 +1,58 @@
+
+
+  @font-face
+    {
+    font-family: galaxy;
+    src: url('../Galaxy.otf');
+  }
+  #title{
+  color:white;
+  font-size: 60px;
+  text-align: center;
+  font-family: "galaxy";
+
+}
+
+#big-video-wrap{
+  z-index: -1;
+}
+  body, html {padding:0px; margin: 0px; background: black;}
+  #container {width:800px; height: 350px; position: absolute; top: 50%; left: 50%; margin-top: -175px; margin-left: -400px;}
+  #logo {width: 800px; height: 250px;text-align: center;}
+ 
+  #subtitle{
+    color:#fff;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Lato';
+  }
+
+  .social-icons{
+    margin-top: 20px;
+  }
+
+  .social-icons a:hover{
+    text-decoration: none;
+    opacity: 0.6
+  }
+  .social-icon{
+  color: #fff;
+  font-size: 20px;
+  }
+  
+
+  .btn-actions{
+    text-align: center;
+  }
+
+  .btn-actions .btn{
+    font-size:20px;
+    font-family:'Lato';
+    margin-top: 50px;
+
+  }
+
+  .navbar{
+  background: none;
+  border: none;
+  }
